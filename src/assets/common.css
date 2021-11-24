@@ -1,0 +1,64 @@
+body {
+  position: relative;
+  z-index: 0;
+  font: 12px/1.5 'Helvetica Neue', Helvetica, 'Microsoft YaHei', Arial, 'Hiragino Sans GB', sans-serif;
+  color: #353f52;
+}
+body,
+html,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+input,
+button,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  color: #0c6cf2;
+  text-decoration: none;
+}
+input::-webkit-input-placeholder {
+  color: #9ea3ab;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+em,
+i,
+var {
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iconfont'; /* Project id 2954997 */
+  src: url('//at.alicdn.com/t/font_2954997_atyrfdtg5u.woff2?t=1637642016255') format('woff2'),
+    url('//at.alicdn.com/t/font_2954997_atyrfdtg5u.woff?t=1637642016255') format('woff'),
+    url('//at.alicdn.com/t/font_2954997_atyrfdtg5u.ttf?t=1637642016255') format('truetype');
+}
